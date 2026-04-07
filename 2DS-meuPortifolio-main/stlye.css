@@ -1,11 +1,33 @@
 body{
     background-color: black;
     color: #fff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
 }
 
 .destaque{
     color: yellow;
+}
+
+.botoes{
+     margin-top: 30px;
+     display: flex;
+     gap: 20px;
 }
 
 .botoes a{
@@ -13,4 +35,6 @@ body{
     background-color: wheat;
     text-decoration: none;
     padding: 15px 40px;
+    font-weight: bold;
+    border-radius: 50;
 }
